@@ -1,9 +1,9 @@
 
-# ♟️ Othello AI with Reinforcement Learning
+# Othello AI with Reinforcement Learning
 
 This project implements an **Othello (Reversi) game** with a **Deep Q-Networks (DQN) Reinforcement Learning (RL) agent**. The agent learns to play the game through **self-play training**, improving over time.
 
-## 🚀 Features
+## Features
 
 - ✅ **Interactive Othello Game** – Play Othello via a **Pygame UI**  
 - ✅ **DQN-Based AI** – A Reinforcement Learning agent built with **TensorFlow/Keras**  
