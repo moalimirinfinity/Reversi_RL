@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f320cbb-9b6c-426d-9653-375b14e13b42" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/othello-game/game/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/game/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/othello-game/game/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/game/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/othello-game/game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/game/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/othello-game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "moalimirinfinity"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/moalimirinfinity/Reversi_RL.git",
+    "accountId": "0eb6fa54-fe33-41c9-a64b-b4b578b2facb"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -42,7 +50,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,8 +77,18 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3fabfaaf-615d-41d5-923d-27f59dd78189" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="3fabfaaf-615d-41d5-923d-27f59dd78189">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
