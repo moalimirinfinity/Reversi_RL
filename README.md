@@ -49,18 +49,4 @@ Othello_RL/
 ├── requirements.txt     # Dependencies
 └── README.md            # This file
 
-=======
-# Othello AI with Reinforcement Learning
 
-This project implements an Othello (Reversi) game where a Reinforcement Learning agent, specifically using Deep Q-Networks (DQN), learns to play the game by playing against itself.
-
-## Features
-
-* **Playable Othello Game:** An interactive Othello game built with Pygame.
-* **DQN Agent:** A Reinforcement Learning agent implemented using TensorFlow/Keras.
-* **Self-Play Training:** A script to train the agent by having it play against itself.
-* **Configurable Training:** Hyperparameters and settings managed via a central configuration file.
-* **Model Saving/Loading:** Ability to save training progress and load models to resume or play.
-
-## Project Structure
->>>>>>> a6ce5ef (the agents added)
