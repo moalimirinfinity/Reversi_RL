@@ -1,18 +1,11 @@
-# Game constants
-BOARD_SIZE = 8
-CELL_SIZE = 80
-MARGIN = 50
-WINDOW_WIDTH = BOARD_SIZE * CELL_SIZE + 2 * MARGIN
-WINDOW_HEIGHT = BOARD_SIZE * CELL_SIZE + 2 * MARGIN
-FPS = 60
+"""
+Othello game package - contains all game logic and components
+"""
 
-# Colors
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
-GREEN = (34, 139, 34)
-BROWN = (139, 69, 19)
-HIGHLIGHT = (255, 255, 0)
+from .constants import *
+from .board import Board
+from .game import OthelloGame
 
-# Game states
-RUNNING = 0
-GAME_OVER = 1
+__all__ = ['Board', 'OthelloGame', 'BOARD_SIZE', 'CELL_SIZE', 'MARGIN',
+           'WINDOW_WIDTH', 'WINDOW_HEIGHT', 'FPS', 'BLACK', 'WHITE',
+           'GREEN', 'BROWN', 'HIGHLIGHT', 'RUNNING', 'GAME_OVER']
