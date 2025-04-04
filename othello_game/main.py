@@ -1,4 +1,3 @@
-
 from game.game import OthelloGame
 
 def main():
