@@ -24,3 +24,8 @@ BLACK_HIGHLIGHT = (80, 80, 80)
 # Game states
 RUNNING = 0
 GAME_OVER = 1
+
+# Player constants
+PLAYER_WHITE = 1
+PLAYER_BLACK = -1
+EMPTY = 0

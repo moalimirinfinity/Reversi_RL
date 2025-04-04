@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f320cbb-9b6c-426d-9653-375b14e13b42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/othello-game/game/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/game/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/othello-game/game/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/othello-game/game/constants.py" afterDir="false" />
@@ -46,6 +45,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Othello_RL\othello-game\" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,5 +67,16 @@
       <updated>1743758010797</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -77,6 +77,27 @@ class OthelloGame:
             return row, col
         return None, None
 
+    def reset(self):
+        """Resets the game to the initial state."""
+        self.board = Board()
+        self.current_player = 1  # White starts
+        self.valid_moves = self.board.get_valid_moves(self.current_player)
+        self.state = RUNNING
+        self.highlighted = None
+
+    # Modify the _handle_click method in game/game.py
+    def _handle_click(self, pos):
+        if self.state == GAME_OVER:
+            # Reset the game if clicked during game over
+            self.reset()
+            return  # Important: return after reset to avoid processing click as a move
+
+        row, col = self._get_cell_from_pos(pos)
+        if (row, col) in self.valid_moves:
+            self.board.make_move(row, col, self.current_player)
+            self._switch_player()
+            self.highlighted = None  # Deselect highlight after move
+
     def _draw(self):
         # Draw wooden frame background
         self.screen.fill(DARK_WOOD)
