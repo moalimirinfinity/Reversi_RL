@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f320cbb-9b6c-426d-9653-375b14e13b42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/othello-game/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-agent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-agent/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-agent/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-agent/replay_buffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-agent/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_models/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/train_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +51,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2vG4KB5rbR8doRo2QfhG3Kw4O7T" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

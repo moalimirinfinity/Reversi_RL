@@ -1,0 +1,4 @@
+pygame>=2.0.0
+numpy>=1.19.0
+tensorflow>=2.5.0  # Or your specific TF version (e.g., tensorflow-macos for M1/M2 Macs)
+tqdm>=4.50.0
