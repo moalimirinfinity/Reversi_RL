@@ -1,9 +1,9 @@
 import numpy as np
 # Assuming BOARD_SIZE is available, e.g., imported from othello_game.game.constants
 # If not, define it here or pass it as an argument.
-# from othello_game.game.constants import BOARD_SIZE # Example import
+from othello_game.game.constants import BOARD_SIZE # Example import
 
-BOARD_SIZE = 8 # Define or import appropriately
+# BOARD_SIZE = 8 # Define or import appropriately - REMOVED
 
 def preprocess_state(board_grid, player):
     """

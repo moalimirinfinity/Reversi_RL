@@ -6,13 +6,15 @@ import random
 from .models import create_dqn_model
 from .replay_buffer import ReplayBuffer
 from .utils import preprocess_state, action_to_index, index_to_action
+from othello_game.game.constants import BOARD_SIZE # Import BOARD_SIZE
 
 # Assuming BOARD_SIZE and other constants are available
-BOARD_SIZE = 8 # Define or import appropriately
-NUM_ACTIONS = BOARD_SIZE * BOARD_SIZE
+# BOARD_SIZE = 8 # Define or import appropriately - REMOVED
+# NUM_ACTIONS = BOARD_SIZE * BOARD_SIZE - REMOVED
+ACTION_SIZE = BOARD_SIZE * BOARD_SIZE + 1 # 64 squares + 1 pass move
 
 class DQNAgent:
-    def __init__(self, state_shape, action_size=NUM_ACTIONS,
+    def __init__(self, state_shape, action_size=ACTION_SIZE, # Use ACTION_SIZE
                  learning_rate=0.001, gamma=0.99, epsilon=1.0,
                  epsilon_decay=0.9995, epsilon_min=0.01,
                  buffer_size=100000, batch_size=64,
@@ -80,6 +82,9 @@ class DQNAgent:
             # Mask invalid actions by setting their Q-values very low
             valid_action_indices = [action_to_index(move) for move in valid_moves]
             masked_q_values = np.full(self.action_size, -np.inf) # Start with all invalid
+            # Ensure q_values has the correct length (should be action_size=65)
+            if len(q_values) != self.action_size:
+                raise ValueError(f"Mismatch between model output size ({len(q_values)}) and agent action size ({self.action_size})")
             masked_q_values[valid_action_indices] = q_values[valid_action_indices] # Set valid Q's
 
             best_action_index = np.argmax(masked_q_values)

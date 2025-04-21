@@ -2,9 +2,12 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 
+# Import BOARD_SIZE from game constants
+from othello_game.game.constants import BOARD_SIZE
+
 # Assuming BOARD_SIZE is available
-BOARD_SIZE = 8 # Define or import appropriately
-NUM_ACTIONS = BOARD_SIZE * BOARD_SIZE # 64 possible move locations
+# BOARD_SIZE = 8 # Define or import appropriately - REMOVED
+NUM_ACTIONS = BOARD_SIZE * BOARD_SIZE + 1 # 64 possible move locations + 1 for pass
 
 def create_dqn_model(input_shape, num_actions=NUM_ACTIONS):
     """
